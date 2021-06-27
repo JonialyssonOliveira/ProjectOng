@@ -21,6 +21,7 @@ namespace ProjectOngReact
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+
                 });
     }
 }
